@@ -1,50 +1,23 @@
 body {
-background-image: url(/Puerto-Penasco-Malecon.jpg);
+background-image: url(/Images/sunset-fun.jpg);
 background-repeat: repeat;
+background-size: 100%;
 display: block;
 margin: auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.nav-bar {
- background-color: ivory;
- display: block;
- margin: auto;
- width: 100%;
- height: auto;
- border-radius: 20px; 
+nav {
+display: flex;
+background-color: ivory;
+width: 100%;
+height: 150px;
+border-radius: 20px;
+justify-content:space-evenly;
 }
 
-h1 {
-font-size: 100px;
-font-family:fantasy;
-font-weight: bolder;
-text-align: center;
-color:rgb(26, 11, 240)
+a {
+ font-size: 20px;
+ padding: 100px;
 }
 
-nav p a {
- font-size: 30px;
-}
-
-p2 {
- color: black
-}
-
-p3 {
- position: relative;
- left: 50px;
- bottom: 20px;
-}
-
- h3 a {
- position: relative;
- left: 1100px;
- bottom: 20px;
-}
-
-img {
- width: 30%;
- height: auto;
- border-radius: 50px;
-}
