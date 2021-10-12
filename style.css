@@ -1,6 +1,6 @@
 body {
 background: url(/Images/sunset-fun.jpg); 
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-size:cover;
 height: 1000px;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,9 +9,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 nav {
 display: flex;
 background-color: ivory;
-width: 100%;
+width: 90%;
 height: 150px;
 border-radius: 20px;
+margin:auto;
 justify-content:space-evenly;
 }
 
@@ -20,3 +21,27 @@ a {
  padding: 100px;
 }
 
+div {
+ background-color:ivory;
+ border-radius:50px;
+ display: block;
+ margin: 10px 90px;
+ width: 400px;
+ height: 700px;
+}
+.image1 {
+ max-width:300px;
+ height:auto;
+
+ display: block;
+ padding: 30px 30px;
+}
+
+.logo { 
+ border-radius: 5px;
+}
+
+p {
+ padding: 0px 50px;
+ font-size: 25px; 
+}
