@@ -7,7 +7,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .grid-container {
  display: grid;
  grid-template-columns: 1000px;
- grid-auto-rows: minmax(300px, auto);
+ grid-auto-rows: minmax(500px, auto);
  grid-row-gap: 100px; 
  justify-content: space-around;
 }
