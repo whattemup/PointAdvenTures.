@@ -22,7 +22,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .landing-page {
  display: grid;
  background-color: lightgray;
- grid-auto-rows: minmax(60px, auto);
+ grid-auto-rows: minmax(100px, auto);
  border-radius: 50px; 
  margin: center;
 }
