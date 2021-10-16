@@ -45,6 +45,7 @@ justify-content: center;
 
 p {
 display: grid;
+width: 100%;
 grid-template-rows: 20px;
 justify-content: center;
 padding: 0px 20px 20px 20px;
