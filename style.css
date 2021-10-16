@@ -19,6 +19,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .landing-page {
+ display: grid;
+ grid-auto-rows: minmax(300px, auto);
+ grid-template-columns: 1000px;
  background-color: lightgray;
  border-radius: 50px; 
  margin: center;
