@@ -7,19 +7,22 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .grid-container {
  display: grid;
  grid-template-columns: 1000px;
- grid-auto-rows: minmax(500px, auto);
  grid-row-gap: 100px; 
  justify-content: space-around;
 }
 
 .grid-item {
+ display: grid;
  background-color: ivory;
  border-radius: 50px; 
+ grid-auto-rows: minmax(100px, auto);
  margin: center;
 }
 
 .landing-page {
+ display: grid;
  background-color: lightgray;
+ grid-auto-rows: minmax(30px, auto);
  border-radius: 50px; 
  margin: center;
 }
