@@ -27,6 +27,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  margin: center;
 }
 
+.video-2 { 
+ width: 1000px; 
+ height: 500px; 
+ border-radius: 50px; 
+}
+
 .nav-item {
 display: grid;
 grid-template-rows: 16px;
@@ -44,7 +50,6 @@ justify-content:space-evenly;
  width:100%;
  border-radius: 50px 50px 0px 0px;
 }
-
 
 p {
 width: 100%;
