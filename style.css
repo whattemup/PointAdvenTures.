@@ -41,7 +41,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 p1 {
 display: grid;
-grid-template-columns: repeat(4,100px);
+grid-template-columns: repeat(4,120px);
 justify-content:space-evenly;
 }
 
