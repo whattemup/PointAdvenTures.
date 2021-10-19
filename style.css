@@ -6,25 +6,31 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .grid-container {
  display: grid;
- grid-template-columns: 1000px;
+ width: 1000px;
  grid-row-gap: 100px; 
  justify-content: space-around;
+ margin:auto;
 }
 
 .grid-item {
  display: grid;
  background-color: ivory;
- border-radius: 50px; 
- grid-auto-rows: minmax(100px, auto);
+ border-radius: 50px;  
  margin: center;
 }
 
 .landing-page {
  display: grid;
- background-color: lightgray;
- grid-auto-rows: minmax(50px, auto);
+ width: 100%;
+ background-color: ivory; 
  border-radius: 50px; 
+ grid-auto-rows: minmax(100px, auto);
  margin: center;
+}
+
+.logo {
+ width:100%;
+ border-radius: 50px 50px 0px 0px;
 }
 
 .video-2 { 
@@ -33,29 +39,25 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  border-radius: 50px; 
 }
 
-.nav-item {
+p1 {
 display: grid;
-grid-template-rows: 16px;
+grid-template-columns: repeat(4,80px);
 justify-content:space-evenly;
-}
-
-.logo {
- width: 100%;
- border-radius: 50px 50px 0px 0px;
 }
 
 .image-8,
 .image-2,
 .image-13 {
- width:100%;
+ width: 100%;
  border-radius: 50px 50px 0px 0px;
 }
 
 p {
-width: 100%;
+width: 90%;
 font-size:inherit;
 justify-content:space-around;
 padding: 0px 20px 20px 20px;
+text-align: center;
 }
 
 
