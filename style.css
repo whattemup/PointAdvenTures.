@@ -6,7 +6,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .grid-container {
  display: grid;
- width: 80%;
+ width: 50%;
  grid-row-gap: 80px; 
  justify-content:space-around;
  margin:auto;
