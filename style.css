@@ -24,8 +24,8 @@ text-align:  center;
 
 .grid-container {
  display: grid;
- width: 50%;
- grid-row-gap: 80px; 
+ width:auto; 
+ height:auto;
  justify-content:space-around;
  margin:auto;
 
@@ -75,7 +75,7 @@ text-align:  center;
 
 .logo {
  display:grid;
- width:1600px;
+ width:3000px;
  height: 300px;
  border-radius: 15px;
  border-color: darkblue;
